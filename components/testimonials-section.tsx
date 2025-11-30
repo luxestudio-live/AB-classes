@@ -8,7 +8,7 @@ const testimonials = [
   {
     name: "Rahul Mehta",
     role: "JEE Advanced 2024 - AIR 856",
-    image: "/indian-male-student-smiling.jpg",
+    image: "/AB-classes/indian-male-student-smiling.jpg",
     quote:
       "AB Classes transformed my understanding of Physics and Mathematics. The faculty's dedication and personalized attention helped me crack JEE Advanced. Forever grateful!",
     rating: 5,
@@ -16,7 +16,7 @@ const testimonials = [
   {
     name: "Priyanka Singh",
     role: "NEET 2024 - 680/720",
-    image: "/indian-female-student-portrait.png",
+    image: "/AB-classes/indian-female-student-portrait.png",
     quote:
       "The Biology and Chemistry teaching at AB Classes is exceptional. Dr. Sharma's conceptual approach and regular tests kept me exam-ready. Highly recommended for NEET aspirants!",
     rating: 5,
@@ -24,7 +24,7 @@ const testimonials = [
   {
     name: "Arjun Patel",
     role: "Class 12 CBSE - 98.4%",
-    image: "/indian-teenage-boy-student.jpg",
+    image: "/AB-classes/indian-teenage-boy-student.jpg",
     quote:
       "Best coaching institute in Delhi! The crash course for boards was incredibly helpful. The study material and mock tests were exactly what I needed.",
     rating: 5,
@@ -32,7 +32,7 @@ const testimonials = [
   {
     name: "Ananya Kapoor",
     role: "Class 10 CBSE - 96%",
-    image: "/indian-teenage-girl-student-smiling.jpg",
+    image: "/AB-classes/indian-teenage-girl-student-smiling.jpg",
     quote:
       "I was struggling with Mathematics, but the teachers at AB Classes made it so easy to understand. Small batch sizes meant I could ask all my doubts freely.",
     rating: 5,
@@ -40,7 +40,7 @@ const testimonials = [
   {
     name: "Vikram Joshi",
     role: "Parent",
-    image: "/indian-middle-aged-man-parent.jpg",
+    image: "/AB-classes/indian-middle-aged-man-parent.jpg",
     quote:
       "As a parent, I appreciate the regular updates and parent-teacher meetings. My son's confidence and grades have improved significantly since joining AB Classes.",
     rating: 5,
@@ -48,7 +48,7 @@ const testimonials = [
   {
     name: "Meera Reddy",
     role: "English Olympiad Gold Medalist",
-    image: "/indian-young-woman-student-achiever.jpg",
+    image: "/AB-classes/indian-young-woman-student-achiever.jpg",
     quote:
       "The English communication course helped me overcome my fear of public speaking. Now I confidently participate in debates and won the state-level Olympiad!",
     rating: 5,
@@ -115,7 +115,7 @@ export function TestimonialsSection() {
 
                 <div className="flex items-center gap-4 pt-4 border-t border-border">
                   <img
-                    src={testimonial.image || "/placeholder.svg"}
+                    src={testimonial.image || "/AB-classes/placeholder.svg"}
                     alt={testimonial.name}
                     className="w-12 h-12 rounded-full object-cover"
                   />

@@ -12,7 +12,7 @@ const faculty = [
     experience: "18 Years",
     qualification: "Ph.D. Mathematics, IIT Delhi",
     specialization: "JEE/Olympiad Math",
-    image: "/indian-male-professor-mathematics-teacher-with-gla.jpg",
+    image: "/AB-classes/indian-male-professor-mathematics-teacher-with-gla.jpg",
     achievements: ["100+ JEE selections", "3 Olympiad gold medalists"],
   },
   {
@@ -21,7 +21,7 @@ const faculty = [
     experience: "12 Years",
     qualification: "M.Sc. Physics, DU",
     specialization: "NEET/JEE Physics",
-    image: "/indian-female-physics-teacher-professional.jpg",
+    image: "/AB-classes/indian-female-physics-teacher-professional.jpg",
     achievements: ["NEET specialist", "95% success rate"],
   },
   {
@@ -30,7 +30,7 @@ const faculty = [
     experience: "15 Years",
     qualification: "M.Sc. Chemistry, BHU",
     specialization: "Organic Chemistry",
-    image: "/indian-male-chemistry-teacher-in-lab-coat.jpg",
+    image: "/AB-classes/indian-male-chemistry-teacher-in-lab-coat.jpg",
     achievements: ["Author of 3 books", "Ex-CBSE examiner"],
   },
   {
@@ -39,7 +39,7 @@ const faculty = [
     experience: "10 Years",
     qualification: "M.A. English Literature",
     specialization: "Communication Skills",
-    image: "/indian-female-english-teacher-professional-young.jpg",
+    image: "/AB-classes/indian-female-english-teacher-professional-young.jpg",
     achievements: ["IELTS certified", "Debate coach"],
   },
 ]
@@ -93,7 +93,7 @@ export function FacultySection() {
             >
               <div className="relative overflow-hidden">
                 <img
-                  src={member.image || "/placeholder.svg"}
+                  src={member.image || "/AB-classes/placeholder.svg"}
                   alt={member.name}
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500"
                 />
