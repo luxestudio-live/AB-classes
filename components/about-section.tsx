@@ -61,7 +61,7 @@ export function AboutSection() {
               isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-10"
             }`}
           >
-            <img src="/indian-teacher-teaching-students-in-classroom-with.jpg" alt="AB Classes classroom" className="rounded-2xl shadow-xl w-full" />
+            <img src="/AB-classes/indian-teacher-teaching-students-in-classroom-with.jpg" alt="AB Classes classroom" className="rounded-2xl shadow-xl w-full" />
             <div className="absolute -bottom-6 -right-6 bg-primary text-primary-foreground p-6 rounded-2xl shadow-lg">
               <div className="text-4xl font-bold">15+</div>
               <div className="text-sm opacity-90">Years of Excellence</div>

@@ -92,7 +92,7 @@ export function HeroSection() {
           >
             <div className="relative">
               <img
-                src="/indian-students-studying-together-in-a-bright-clas.jpg"
+                src="/AB-classes/indian-students-studying-together-in-a-bright-clas.jpg"
                 alt="Students studying at AB Classes"
                 className="rounded-2xl shadow-2xl w-full"
               />
