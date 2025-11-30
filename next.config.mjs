@@ -7,6 +7,8 @@ const nextConfig = {
     unoptimized: true,
   },
   output: 'export',
+  basePath: '/AB-classes',
+  assetPrefix: '/AB-classes/',
 }
 
 export default nextConfig
