@@ -118,7 +118,7 @@ export function Footer() {
             © {new Date().getFullYear()} AB Classes. All rights reserved.
           </p>
           <p className="text-background/50 text-sm flex items-center gap-1">
-            Made with <Heart className="w-4 h-4 text-primary fill-primary" /> in New Delhi, India
+            Made with Passion by <a href="https://www.luxestudio.live" target="_blank" rel="noopener noreferrer" className="text-primary font-semibold underline">LuxeStudio</a>
           </p>
         </div>
       </div>
